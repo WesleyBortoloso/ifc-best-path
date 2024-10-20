@@ -43,6 +43,11 @@ button:hover {
     background-color: #278436;
 }
 
+img {
+    width: auto;
+    height: 100px;
+}
+
 pre {
     background-color: #f4f4f4;
     padding: 10px;
