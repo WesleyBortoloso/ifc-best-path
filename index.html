@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFC - Busca Estrela</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>IFC - Busca Estrela</h1>
+        <p>Busque pelo melhor caminho entre dois pontos dentro do IFC - Campus Videira</p>
+        
+        <label for="start">De onde você esta partindo:</label>
+        <select id="start"></select>
+        
+        <label for="end">Aonde você quer chegar:</label>
+        <select id="end"></select>
+        
+        <button onclick="findPath()">Busque pelo melhor caminho</button>
+        
+        <h2>Melhor caminho:</h2>
+        <pre id="result"></pre>
+    </div>
+    <script src="astar.js"></script>
+</body>
+</html>
